@@ -149,7 +149,7 @@ header {
 
 @media screen and (max-width : 500px){
     .skills-container img {
-        font-size: 3em;
+        max-width: 3em;
     }
 }
 
