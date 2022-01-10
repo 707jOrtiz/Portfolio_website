@@ -227,13 +227,13 @@ header {
 
 @media screen and (max-height : 600px){
     .s2 i {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-height : 600px){
     .skills-container img {
-        max-width: 2.5em;
+        max-width: 1em;
     }
 }
 
