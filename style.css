@@ -150,6 +150,7 @@ header {
 @media screen and (max-width : 500px){
     .s2 img {
         max-width: 3em;
+        overflow: hidden;
     }
 }
 
