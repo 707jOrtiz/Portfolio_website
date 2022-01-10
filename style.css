@@ -148,7 +148,7 @@ header {
 }
 
 @media screen and (max-width : 500px){
-    .skills-container img {
+    .s2 img {
         max-width: 3em;
     }
 }
