@@ -162,7 +162,7 @@ header {
     }
 }
 
-@media screen and (max-height : 600px){
+@media screen and (max-height : 650px){
     #about-text {
         font-size: 1em;
     }
@@ -184,7 +184,7 @@ header {
     }
 }
 
-@media screen and (max-height : 600px){
+@media screen and (max-height : 650px){
     .s2 p {
         font-size: 0.6rem;
         margin: 0;
@@ -225,13 +225,13 @@ header {
     }
 }
 
-@media screen and (max-height : 600px){
+@media screen and (max-height : 650px){
     .s2 i {
         font-size: 1rem;
     }
 }
 
-@media screen and (max-height : 600px){
+@media screen and (max-height : 650px){
     .skills-container img {
         max-width: 1em;
     }
