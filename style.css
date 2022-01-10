@@ -139,27 +139,7 @@ header {
         font-size: 1rem;
         padding: 0.5em;
         margin: 0;
-        postition: absolute;
-    }
-}
-
-@media screen and (max-width : 500px){
-    .s2 i {
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width : 500px){
-    .s2 img {
-        max-width: 3em;
-        overflow: hidden;
-    }
-}
-
-@media screen and (max-width : 500px){
-    #skill-text {
-        margin: 0em 0em 0em 4em;
-        padding: 0;
+        position: absolute;
     }
 }
 
