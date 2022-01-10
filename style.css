@@ -9,7 +9,6 @@ h2 {
     font-size: 2em;
 }
 
-
 /* Section one */ 
 .s1 {
     background: url("31809.jpeg") left top no-repeat;
@@ -154,7 +153,7 @@ header {
     #about-text {
         display: flex;
         justify-content: flex-start;
-        margin: -5em 0em 0em 0em;
+        margin: 0;
     }
 }
 
