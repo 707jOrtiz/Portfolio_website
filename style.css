@@ -138,6 +138,8 @@ header {
     .s2 p {
         font-size: 1rem;
         padding: 0.5em;
+        margin: 0;
+        postition: absolute;
     }
 }
 
@@ -158,6 +160,21 @@ header {
     #skill-text {
         margin: 0em 0em 0em 4em;
         padding: 0;
+    }
+}
+
+@media screen and (max-width : 700px){
+    .about-me {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width : 700px){
+    #about-text {
+        display: flex;
+        justify-content: flex-start;
+        margin: -12em 0em 0em 0em;
     }
 }
 
