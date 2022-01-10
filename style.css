@@ -154,6 +154,13 @@ header {
     }
 }
 
+@media screen and (max-width : 500px){
+    #skill-text {
+        margin: 0em 0em 0em 4em;
+        padding: 0;
+    }
+}
+
 /* Section 3 */
 
 .s3 {
