@@ -162,7 +162,7 @@ header {
     }
 }
 
-@media screen and (max-width : 550px){
+@media screen and (max-width : 600px){
     .about-me {
         display: flex;
         justify-content: flex-start;
@@ -171,7 +171,7 @@ header {
     }
 }
 
-@media screen and (max-width : 550px){
+@media screen and (max-width : 600px){
     .s2 p {
         font-size: 0.6rem;
         margin: 0;
