@@ -15,8 +15,7 @@ h2 {
 /* Section one */ 
 .s1 {
     background: url("31809.jpeg") left top no-repeat;
-    background-size: 50% 100%;
-    font-weight: 400;  
+    background-size: 42% 100%; 
 }
 
 #particles-js {
@@ -74,6 +73,18 @@ header {
 }
 
 /* Resizing section 1 */
+@media screen and (max-width: 1600px) {
+    .s1 {
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .s1 {
+        background-size: cover;
+        background-position: 82%;
+    }
+}
 
 @media screen and (max-height : 600px) {
    nav {
@@ -153,42 +164,44 @@ header {
 
 /* Resizing for section 2 */
 
-@media screen and (max-width : 550px){
-    #about-text {
-        display: flex;
-        justify-content: flex-start;
-        margin: 0;
-        font-size: 1em;
+@media screen and (max-width : 750px){
+    .s2 p {
+        max-width: 45%;
+        padding: 0.2;
+        border-style: groove;
+        font-size: 1rem;
+        margin: 0em 0.5em 0.5em 2em;
+        background-color: black;
+        text-align: left;
     }
 }
 
-@media screen and (max-width : 600px){
+@media screen and (max-width : 500px){
+    #about-text {
+        justify-content: flex-start;
+        margin: 0;
+        font-size: 0.75rem;
+    }
+
     .about-me {
         display: flex;
         justify-content: flex-start;
-        float: left;
-        
+        float: left;     
     }
-}
 
-@media screen and (max-width : 600px){
     .s2 p {
         font-size: 0.6rem;
         margin: 0;
-        padding: 0;
+        padding: 0.1em;
     }
-}
 
-@media screen and (max-width : 550px){
     #skill-text {
         font-size: 1rem;
         display: flex;
         justify-content: flex-end;
         margin-top: -1em;
     }
-}
 
-@media screen and (max-width : 550px){
     .skills {
         margin: 0;
         max-width: 10%;
@@ -196,20 +209,15 @@ header {
         position: absolute;
         left: 65%;
     }
-}
 
-@media screen and (max-width : 550px){
     .s2 i {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 0.1em;
     }
-}
 
-@media screen and (max-width : 550px){
     .skills-container img {
-        max-width: 3em;
+        max-width: 2.5em;
         margin-top: 0.2em;
-        margin-left: 8px;
     }
 }
 
